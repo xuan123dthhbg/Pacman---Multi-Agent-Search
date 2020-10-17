@@ -1,6 +1,7 @@
 # Báo cáo P2
 
 ## Q1
+python pacman.py --frameTime 0 -p ReflexAgent -k 1
 
 * Hướng làm:
 
@@ -8,6 +9,7 @@
 	và tính toán khoảng các đến đồ ăn và trả về giá trị min.
 
 ## Q2
+python pacman.py --frameTime 0 -p ReflexAgent -k 2
 
 * Hướng làm:
 
@@ -16,6 +18,7 @@
     Sau khi tính toán sẽ nhận được mảng gồm các actions và điểm cho action đó, dựa vào đó ta chọ action tốt nhất và trả về.
 
 ## Q3
+python pacman.py -p MinimaxAgent -l minimaxClassic -a depth=4
 
 * Hướng làm:
 
@@ -24,6 +27,7 @@
     Phần chọn hành động tối ưu vẫn dựa trên giá trị trả về tương tự câu trên.
 
 ## Q4
+python pacman.py -p AlphaBetaAgent -a depth=3 -l smallClassic
 
 * Hướng làm:
 
@@ -32,6 +36,7 @@
     Phần chọn hành động tối ưu vẫn dựa trên giá trị trả về tương tự câu trên.
 
 ## Q5
+python pacman.py -p ExpectimaxAgent -l trappedClassic -a depth=3 -q -n 10
 
 * Hướng làm:
 
